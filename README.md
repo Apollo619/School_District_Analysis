@@ -11,20 +11,20 @@ Jupyter Notebook, the primary development environment used by Maria the chief da
 
 ### Purging of Data: 
 Unfortunately, during the analysis the school board informed us of academic dishonestly. More specifically the reading and math scores collected for the ninth graders at Thomas High School (THS) had been altered and we were asked to null out (NaN) all standardized test scores for that category.  
--How is the district summary affected?
- -Fortunately, the district summary table had minimal to no affected on the total outcome of the results as the number of ninth graders for THS represented a small portion of the total number of students for the district. See the below images for comparison of district summary.  
+1. How is the district summary affected?
+   - Fortunately, the district summary table had minimal to no affected on the total outcome of the results as the number of ninth graders for THS represented a small portion of the total number of students for the district. See the below images for comparison of district summary.  
 
 ![](https://github.com/Apollo619/School_District_Analysis/blob/main/Resources/District_Summary_Original.PNG)![](https://github.com/Apollo619/School_District_Analysis/blob/main/Resources/District_Summary_Cleaned.PNG)
 
-1. How is the school summary affected?
+2. How is the school summary affected?
    - The same can not be said for the school summary table. As you can see from the images below, the “% Passing Reading, “%   Passing Math”, and “% Overall Passing” for Thomas High School saw significant increases in values. Ranging anywhere from 17-25% mark up. This is due to the ninth-grade student being removed from the total student population for Thomas High. 
 ![](https://github.com/Apollo619/School_District_Analysis/blob/main/Resources/School_Summary_Original.PNG)![](https://github.com/Apollo619/School_District_Analysis/blob/main/Resources/School_Summary_Cleaned.PNG)
 
-2. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+3. How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
    - Thanks to this adjustment in calculations for THS, the “% Overall Passing” values increased to 90.6% making them one of the top performing schools in the district. See the below image for top 5 performing schools. 
 ![](https://github.com/Apollo619/School_District_Analysis/blob/main/Resources/Top_Schools_Overall.PNG)
 
-3. How does replacing the ninth-grade scores affect the following:
+4. How does replacing the ninth-grade scores affect the following:
    - Math and reading scores by grade
      - Similarly, to the district summary the math and reading scores by grade had no changes as the academic dishonestly only affected the overall outcome for the ninth grade	s at Thomas High School. See below images for comparison of the reading scores. 
 ![](https://github.com/Apollo619/School_District_Analysis/blob/main/Resources/Scores_by_grade_reading_original.PNG)![](https://github.com/Apollo619/School_District_Analysis/blob/main/Resources/Scores_by_grade_reading_cleaned.PNG)
